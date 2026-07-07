@@ -2,11 +2,11 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- https://github.com/OpenCHAMI/kube-deploy//kustomize/services/namespace/?timeoute=120&ref=main
-- https://github.com/OpenCHAMI/kube-deploy//kustomize/services/db/?timeoute=120&ref=main
-- https://github.com/OpenCHAMI/kube-deploy//kustomize/services/smd/suite/?timeoute=120&ref=main
-- https://github.com/OpenCHAMI/kube-deploy//kustomize/services/bss/suite/?timeoute=120&ref=main
-- https://github.com/OpenCHAMI/kube-deploy//kustomize/services/pcs/suite/?timeoute=120&ref=main
+- https://github.com/vbhogadi-oss/kube-deploy//kustomize/services/namespace/?timeoute=120&ref=main
+- https://github.com/vbhogadi-oss/kube-deploy//kustomize/services/db/?timeoute=120&ref=main
+- https://github.com/vbhogadi-oss/kube-deploy//kustomize/services/smd/suite/?timeoute=120&ref=main
+- https://github.com/vbhogadi-oss/kube-deploy//kustomize/services/bss/suite/?timeoute=120&ref=main
+- https://github.com/vbhogadi-oss/kube-deploy//kustomize/services/pcs/suite/?timeoute=120&ref=main
 
 secretGenerator:
 - name: pcs-db-generated

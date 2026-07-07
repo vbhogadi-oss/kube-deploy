@@ -14,7 +14,7 @@ spec:
     # full example-local directory into the private repo, rather than its
     # contents into the top level of the private repo.
     path: 'example-local/services'
-    repoURL: 'https://github.com/OpenCHAMI/kube-deploy'
+    repoURL: 'https://github.com/vbhogadi-oss/kube-deploy'
     targetRevision: main
   destination:
     namespace: openchami
